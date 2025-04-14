@@ -92,6 +92,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemSprite:
   - {fileID: 21300000, guid: 66848e1723760e245a13567f489e8025, type: 3}
+  - {fileID: 21300000, guid: 3086baad403b68c46a018feef61d2ba8, type: 3}
   cd: {fileID: 2876183055579253433}
   ItemPrefab: {fileID: 6496736340486267951, guid: f05effd6ff6c59348a9991e490cc0ba6, type: 3}
   cooldown: 7

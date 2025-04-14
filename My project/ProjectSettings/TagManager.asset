@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Item
   - Chao
+  - Personagem
   layers:
   - Default
   - TransparentFX

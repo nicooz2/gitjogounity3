@@ -23,6 +23,9 @@ public class ReducaoVidaChao : MonoBehaviour
     {
         if (collision.gameObject.tag == "Chao")
         {
+
+            Destroy(gameObject);
+
             if (VidaDoChao == null)
             {
 

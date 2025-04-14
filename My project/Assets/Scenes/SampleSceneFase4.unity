@@ -610,7 +610,7 @@ MonoBehaviour:
   moveDirectionX: 1
   minWalkSpeedX: 0.5
   walkAccelerationX: 0.14
-  maxWalkSpeedX: 5.5
+  maxWalkSpeedX: 9.5
   jumpSpeedY: 5
   isGrounded: 0
   checkJump: 0.5

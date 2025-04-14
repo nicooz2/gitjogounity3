@@ -34,5 +34,10 @@ public class VidaChao : MonoBehaviour
         BarraDeVida.value = Vida;
 
         CorBarra.color = CorGradiente.Evaluate(BarraDeVida.normalizedValue);
+
+        if (Vida <= 0)
+        {
+            InterfaceUI.instance.AbrirTelaGameOver(); // abrindo a tela de game over
+        }
     }
 }
