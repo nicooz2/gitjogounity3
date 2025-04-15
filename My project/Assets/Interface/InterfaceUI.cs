@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 
 
+
 public class InterfaceUI : MonoBehaviour
 {
 
@@ -13,8 +14,10 @@ public class InterfaceUI : MonoBehaviour
 
     [SerializeField] private GameObject BotaoTenteDeNovo;
     [SerializeField] private GameObject JogoGameOver;
-    
 
+    [SerializeField] private TextMeshProUGUI TempoTexto;
+
+    
 
     private void Awake()
     {
@@ -32,6 +35,16 @@ public class InterfaceUI : MonoBehaviour
     void Update()
     {
         
+        if (Time.time >= 1)
+            TempoTexto.text = Time.time.ToString("#,#");
+
+        if (Time.time >= 240)
+        {
+            SceneManager.LoadScene(1);
+            Time.timeScale = 1;
+        }
+            
+        
     }
 
     public void AbrirTelaGameOver()
@@ -46,5 +59,6 @@ public class InterfaceUI : MonoBehaviour
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(0);
+        
     }
 }

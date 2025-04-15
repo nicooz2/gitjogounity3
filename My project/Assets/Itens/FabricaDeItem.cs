@@ -12,7 +12,7 @@ public class FabricaDeItem : MonoBehaviour
     private float timer;
 
     private int ItemFeito;
-    private int ItemPontoReferência = 10;
+    private int ItemPontoReferência = 7;
 
     // Update is called once per frame
     void Update()
