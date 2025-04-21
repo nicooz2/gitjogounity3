@@ -26,7 +26,7 @@ public class FabricaDeItem : MonoBehaviour
 
             if (ItemFeito > ItemPontoReferência && cooldown > .5f)
             {
-                ItemPontoReferência += 10;
+                ItemPontoReferência += 7;
                 cooldown -= .5f;
 
             }

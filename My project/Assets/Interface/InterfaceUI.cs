@@ -15,10 +15,14 @@ public class InterfaceUI : MonoBehaviour
     [SerializeField] private GameObject BotaoTenteDeNovo;
     [SerializeField] private GameObject JogoGameOver;
 
-    [SerializeField] private TextMeshProUGUI TempoTexto;
+    public float TempoInicial;
+    private float TempoRestante;
+    [SerializeField] private TMP_Text TempoTexto;
+    
 
     
 
+    
     private void Awake()
     {
         instance = this;
@@ -28,27 +32,32 @@ public class InterfaceUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        TempoRestante = TempoInicial;
     }
 
     // Update is called once per frame
+    
     void Update()
     {
-        
-        if (Time.time >= 1)
-            TempoTexto.text = Time.time.ToString("#,#");
 
-        if (Time.time >= 240)
+        if (TempoRestante > 0)
+        {
+            TempoRestante -= Time.deltaTime;
+            TempoTexto.text = TempoRestante.ToString("0");
+        }
+        else
         {
             SceneManager.LoadScene(1);
             Time.timeScale = 1;
         }
-            
-        
     }
 
+    
+    
+    
     public void AbrirTelaGameOver()
     {
+
         Time.timeScale = 0;
         JogoGameOver.SetActive(true);
         BotaoTenteDeNovo.SetActive(true);
@@ -57,6 +66,7 @@ public class InterfaceUI : MonoBehaviour
 
     public void JogoRestart()
     {
+        
         Time.timeScale = 1;
         SceneManager.LoadScene(0);
         

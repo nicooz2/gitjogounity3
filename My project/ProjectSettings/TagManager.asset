@@ -8,6 +8,7 @@ TagManager:
   - Chao
   - Personagem
   - Plataforma
+  - Bombinha
   layers:
   - Default
   - TransparentFX
