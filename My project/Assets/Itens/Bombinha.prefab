@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 177774385894878473}
   - component: {fileID: 8150465026551666793}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: Bombinha
   m_TagString: Bombinha
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

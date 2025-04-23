@@ -20,9 +20,11 @@ public class AguaProjetil : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
-
-
+        if (collision.gameObject.tag == "Elemento")
+        {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
 
         if (collision.gameObject.tag == "ParedeLimite")
         {

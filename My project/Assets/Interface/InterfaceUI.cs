@@ -18,9 +18,10 @@ public class InterfaceUI : MonoBehaviour
     public float TempoInicial;
     private float TempoRestante;
     [SerializeField] private TMP_Text TempoTexto;
-    
 
     
+
+    private int ProximoSampleSceneLoad;
 
     
     private void Awake()
@@ -33,6 +34,8 @@ public class InterfaceUI : MonoBehaviour
     void Start()
     {
         TempoRestante = TempoInicial;
+
+        ProximoSampleSceneLoad = SceneManager.GetActiveScene().buildIndex + 1;
     }
 
     // Update is called once per frame
@@ -47,7 +50,7 @@ public class InterfaceUI : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(ProximoSampleSceneLoad);
             Time.timeScale = 1;
         }
     }

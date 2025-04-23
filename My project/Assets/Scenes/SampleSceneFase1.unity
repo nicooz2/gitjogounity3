@@ -1469,7 +1469,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ae7358d2eaa09914ea1c9b303b424461, type: 3}
   cd: {fileID: 301935011}
   ItemPrefab: {fileID: 6496736340486267951, guid: f05effd6ff6c59348a9991e490cc0ba6, type: 3}
-  cooldown: 5
+  cooldown: 4
 --- !u!61 &301935011
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1910,7 +1910,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BotaoTenteDeNovo: {fileID: 230263511}
   JogoGameOver: {fileID: 1885128772}
-  TempoInicial: 70
+  TempoInicial: 120
   TempoTexto: {fileID: 906716148}
 --- !u!1 &755633454
 GameObject:
@@ -2691,7 +2691,7 @@ MonoBehaviour:
   - {fileID: -2413806693520163455, guid: c7ebc81318553f044a20c8dd2fdf7677, type: 3}
   cd2: {fileID: 1972337109}
   ItemPrefab2: {fileID: 647008819764975777, guid: fef5005f35dd2b74c9e3aeb2a90fc59a, type: 3}
-  cooldown2: 7
+  cooldown2: 3
 --- !u!1 &2054387576
 GameObject:
   m_ObjectHideFlags: 0
@@ -3130,7 +3130,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1604328752904380526, guid: 8fc78b4e8263273448003141827358b0, type: 3}
       propertyPath: m_text
-      value: 70
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 1604328752904380526, guid: 8fc78b4e8263273448003141827358b0, type: 3}
       propertyPath: m_fontSize

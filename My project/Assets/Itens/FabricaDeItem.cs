@@ -9,7 +9,7 @@ public class FabricaDeItem : MonoBehaviour
     [SerializeField] private BoxCollider2D cd;
     [SerializeField] private GameObject ItemPrefab;
     [SerializeField] private float cooldown;
-    private float timer;
+    private float timer;  
 
     private int ItemFeito;
     private int ItemPontoReferência = 7;

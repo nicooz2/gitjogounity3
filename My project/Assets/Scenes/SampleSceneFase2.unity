@@ -1635,35 +1635,14 @@ GameObject:
   m_Component:
   - component: {fileID: 301935012}
   - component: {fileID: 301935011}
-  - component: {fileID: 301935010}
+  - component: {fileID: 301935013}
   m_Layer: 0
-  m_Name: FabricaDeItem
+  m_Name: FabricaDeElemento
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &301935010
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301935009}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf4386c2271ecc04aac37e9d3ba1d7af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ItemSprite:
-  - {fileID: 21300000, guid: 66848e1723760e245a13567f489e8025, type: 3}
-  - {fileID: 21300000, guid: 3086baad403b68c46a018feef61d2ba8, type: 3}
-  - {fileID: 21300000, guid: 5c947ab96924d3f44b53ab71c6ed0486, type: 3}
-  - {fileID: 21300000, guid: 64559b229e189b44db6f7f42a48d1c9d, type: 3}
-  - {fileID: 21300000, guid: ae7358d2eaa09914ea1c9b303b424461, type: 3}
-  cd: {fileID: 301935011}
-  ItemPrefab: {fileID: 6496736340486267951, guid: f05effd6ff6c59348a9991e490cc0ba6, type: 3}
-  cooldown: 5
 --- !u!61 &301935011
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1724,6 +1703,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &301935013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301935009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf4386c2271ecc04aac37e9d3ba1d7af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemSprite:
+  - {fileID: -2413806693520163455, guid: dd4230af75094bf409ee25a58910fb0f, type: 3}
+  cd: {fileID: 301935011}
+  ItemPrefab: {fileID: 7967589006311324407, guid: 3bf8b440b0a4d234d9745125f0adae37, type: 3}
+  cooldown: 4
 --- !u!1 &315689467
 GameObject:
   m_ObjectHideFlags: 0
@@ -2313,7 +2309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BotaoTenteDeNovo: {fileID: 230263511}
   JogoGameOver: {fileID: 1885128772}
-  TempoInicial: 70
+  TempoInicial: 120
   TempoTexto: {fileID: 906716148}
 --- !u!1 &871158178
 GameObject:
@@ -2655,6 +2651,7 @@ GameObject:
   - component: {fileID: 1452796038}
   - component: {fileID: 1452796037}
   - component: {fileID: 1452796042}
+  - component: {fileID: 1452796043}
   m_Layer: 0
   m_Name: Personagem
   m_TagString: Untagged
@@ -2839,6 +2836,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AguaProjetilsprite: {fileID: 6634831315333392898, guid: e3a51bd1a70b79d48ad95d32572a300e, type: 3}
+--- !u!114 &1452796043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452796036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64fed925734e9e346a9e516a62848eea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidas: 3
+  VidaImagem:
+  - {fileID: 498399418}
+  - {fileID: 2052800120}
+  - {fileID: 1269148118}
 --- !u!1 &1530231302
 GameObject:
   m_ObjectHideFlags: 0
@@ -2897,7 +2911,7 @@ SpriteRenderer:
   m_SortingLayerID: -251617753
   m_SortingLayer: -1
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: a990e85f61cbfa44aa1a696d626578a5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a6c2f331673034544bf0761be3563ffe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2917,8 +2931,8 @@ Transform:
   m_GameObject: {fileID: 1530231302}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0003, y: 0.142, z: 0}
-  m_LocalScale: {x: 6.9775805, y: 5.486166, z: 7.007714}
+  m_LocalPosition: {x: 0.0509, y: 0.97, z: 0}
+  m_LocalScale: {x: 6.1239758, y: 5.564317, z: 8.2480135}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3482,7 +3496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1604328752904380526, guid: 8fc78b4e8263273448003141827358b0, type: 3}
       propertyPath: m_text
-      value: 70
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 1604328752904380526, guid: 8fc78b4e8263273448003141827358b0, type: 3}
       propertyPath: m_fontSize

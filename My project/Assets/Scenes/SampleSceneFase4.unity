@@ -497,7 +497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BotaoTenteDeNovo: {fileID: 6222356335515572875, guid: 8d1e7607618d5b84795966f60b1dba80, type: 3}
   JogoGameOver: {fileID: 8561253879235039710, guid: ebd2e6b61917e974bb0dad00bee04bcf, type: 3}
-  TempoInicial: 70
+  TempoInicial: 120
   TempoTexto: {fileID: 1544791451}
 --- !u!1 &718707226
 GameObject:
@@ -2185,7 +2185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1604328752904380526, guid: 8fc78b4e8263273448003141827358b0, type: 3}
       propertyPath: m_text
-      value: 70
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 1604328752904380526, guid: 8fc78b4e8263273448003141827358b0, type: 3}
       propertyPath: m_fontSize

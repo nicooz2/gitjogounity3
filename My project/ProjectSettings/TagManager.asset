@@ -10,6 +10,7 @@ TagManager:
   - Plataforma
   - Bombinha
   - ParedeLimite
+  - Elemento
   layers:
   - Default
   - TransparentFX
