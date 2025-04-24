@@ -11,6 +11,7 @@ TagManager:
   - Bombinha
   - ParedeLimite
   - Elemento
+  - Objeto
   layers:
   - Default
   - TransparentFX

@@ -375,6 +375,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -456,6 +457,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef761c2827ca6884d975c8b5d6b1af2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objeto: {fileID: 7021900872933960475, guid: 39f66395b44981d48ab05e5af5324b84, type: 3}
 --- !u!1 &600396840
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,7 +590,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BotaoTenteDeNovo: {fileID: 6222356335515572875, guid: 8d1e7607618d5b84795966f60b1dba80, type: 3}
   JogoGameOver: {fileID: 8561253879235039710, guid: ebd2e6b61917e974bb0dad00bee04bcf, type: 3}
-  TempoInicial: 120
+  TempoInicial: 70
   TempoTexto: {fileID: 1544791451}
 --- !u!114 &600396846
 MonoBehaviour:
@@ -2072,6 +2086,7 @@ GameObject:
   - component: {fileID: 1452796038}
   - component: {fileID: 1452796037}
   - component: {fileID: 1452796042}
+  - component: {fileID: 1452796043}
   m_Layer: 0
   m_Name: Personagem
   m_TagString: Untagged
@@ -2255,6 +2270,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a75fbf7144d21f49b6f135eba28f512, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1452796043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452796036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88a4c484ecadade47b6e9c5f321e2a25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1544791449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2277,7 +2304,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1604328752904380526, guid: 8fc78b4e8263273448003141827358b0, type: 3}
       propertyPath: m_text
-      value: 120
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 1604328752904380526, guid: 8fc78b4e8263273448003141827358b0, type: 3}
       propertyPath: m_fontSize
