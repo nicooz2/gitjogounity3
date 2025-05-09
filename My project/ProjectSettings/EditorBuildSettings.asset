@@ -6,12 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleSceneFase1.unity
+    path: Assets/Scenes/Menu.unity
+    guid: 07ccd4eee915e63438421b33bc302dc5
+  - enabled: 1
+    path: "Assets/Scenes/Hist\xF3ria1.unity"
+    guid: a2d477fe647383d4c9e440585a872ddc
+  - enabled: 1
+    path: Assets/Scenes/Fase1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/SampleSceneFase4.unity
-    guid: 26eb886c6cdd9484483e0406f76059b2
+    path: "Assets/Scenes/Hist\xF3ria2.unity"
+    guid: 1587f7836b35db444b01601608d23cb0
   - enabled: 1
-    path: Assets/Scenes/SampleSceneFase2.unity
+    path: Assets/Scenes/Fase2.unity
     guid: 541fc8582801cdb4ab3146b074db8370
+  - enabled: 1
+    path: Assets/Scenes/Fase4.unity
+    guid: 26eb886c6cdd9484483e0406f76059b2
   m_configObjects: {}
