@@ -1752,7 +1752,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -6.8721023, y: 0.8002175}
+  m_Offset: {x: -7.0002823, y: 0.8002175}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1763,7 +1763,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 38.750088, y: 2.600435}
+  m_Size: {x: 20.719696, y: 2.600435}
   m_EdgeRadius: 0
 --- !u!4 &301935012
 Transform:
@@ -1796,7 +1796,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: d5b84d8416f8c2446bf920f7d0323b1e, type: 3}
   cd: {fileID: 301935011}
   ItemPrefab: {fileID: 7967589006311324407, guid: 3bf8b440b0a4d234d9745125f0adae37, type: 3}
-  cooldown: 3.8
+  cooldown: 3.58
 --- !u!1 &311135998 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4106878585153457382, guid: ca6d054574677164cbd19a2aacea8aa5, type: 3}
@@ -2476,7 +2476,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BotaoTenteDeNovo: {fileID: 230263511}
   JogoGameOver: {fileID: 1885128772}
-  TempoInicial: 105
+  TempoInicial: 100
   TempoTexto: {fileID: 906716148}
 --- !u!114 &600396846
 MonoBehaviour:
@@ -3987,7 +3987,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1604328752904380526, guid: 8fc78b4e8263273448003141827358b0, type: 3}
       propertyPath: m_text
-      value: 105
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1604328752904380526, guid: 8fc78b4e8263273448003141827358b0, type: 3}
       propertyPath: m_fontSize
