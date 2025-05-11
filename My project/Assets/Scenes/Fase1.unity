@@ -3044,6 +3044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a75fbf7144d21f49b6f135eba28f512, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AvisoMaisUmPonto: {fileID: 1944640920916895511, guid: 4779b3f9c22778b41897ca763d6635cb, type: 3}
 --- !u!114 &1452796043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3061,6 +3062,7 @@ MonoBehaviour:
   - {fileID: 755633456}
   - {fileID: 58900901}
   - {fileID: 1126374380}
+  AvisoMenosUmPonto: {fileID: 4398932822891347514, guid: 81c5f1b5ee7542248b651b043ce9cd78, type: 3}
 --- !u!1 &1530231302
 GameObject:
   m_ObjectHideFlags: 0

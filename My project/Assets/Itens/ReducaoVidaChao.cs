@@ -6,6 +6,7 @@ public class ReducaoVidaChao : MonoBehaviour
 {
     public int SubtracaoVida = 1;
     private VidaChao VidaDoChao;
+    
 
     // Start is called before the first frame update
     void Start()

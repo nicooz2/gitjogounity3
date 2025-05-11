@@ -7,6 +7,7 @@ public class VidaPersonagem : MonoBehaviour
 {
     public int vidas = 3;
     public Image[] VidaImagem;
+    public GameObject AvisoMenosUmPonto;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,7 @@ public class VidaPersonagem : MonoBehaviour
         if (collision.tag == "Bombinha")
         {
             Destroy(collision.gameObject);
+            Instantiate(AvisoMenosUmPonto, transform.position, Quaternion.identity);
             vidas -= 1;
             for (int i = 0; i < VidaImagem.Length; i++)
             {
