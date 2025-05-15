@@ -690,8 +690,8 @@ MonoBehaviour:
     juntos. \n\nFala do Boss: \"Esse maldito me atrapalhou nas \xFAltimas duas vezes.
     Mais uma vez e todos voc\xEAs sofrer\xE3o consequ\xEAncias!! R\xC1PIDO! Quero
     cada pe\xE7a dele na minha mesa!\"\n\nCL34NER capta ondas de movimento e som
-    vindo na sua dire\xE7\xE3o, ele preicsa ativar seu modo de desvio r\xE1pido diante
-    o ataque surpresa."
+    vindo na sua dire\xE7\xE3o, ele precisa ativar seu modo de desvio r\xE1pido diante
+    do ataque surpresa."
   TextoVelocidade: 0.05
   ItemInfoTexto: {fileID: 904060708}
 --- !u!114 &1630653931

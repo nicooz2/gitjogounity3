@@ -15,7 +15,7 @@ public class AguaProjetil : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.up * VelocidadeAgua * Time.deltaTime);
+        transform.Translate(Vector2.right * VelocidadeAgua * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
