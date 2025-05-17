@@ -3033,6 +3033,7 @@ MonoBehaviour:
   - {fileID: 498399418}
   - {fileID: 2052800120}
   - {fileID: 1269148118}
+  AvisoMenosUmPonto: {fileID: 0}
 --- !u!1 &1530231302
 GameObject:
   m_ObjectHideFlags: 0

@@ -26,4 +26,20 @@ public class Plataforma : MonoBehaviour
             ProximoEspaco = (ProximoEspaco == PontoA.position) ? PontoB.position : PontoA.position;
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Chefao"))
+        {
+            collision.gameObject.transform.parent = transform;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Chefao"))
+        {
+            collision.gameObject.transform.parent = null;
+        }
+    }
 }

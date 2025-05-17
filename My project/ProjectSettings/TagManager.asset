@@ -12,6 +12,7 @@ TagManager:
   - ParedeLimite
   - Elemento
   - Objeto
+  - Chefao
   layers:
   - Default
   - TransparentFX
