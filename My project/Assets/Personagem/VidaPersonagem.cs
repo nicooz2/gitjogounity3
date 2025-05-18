@@ -8,11 +8,12 @@ public class VidaPersonagem : MonoBehaviour
     public int vidas = 3;
     public Image[] VidaImagem;
     public GameObject AvisoMenosUmPonto;
+    private SpriteRenderer SpriteRenderizador;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        SpriteRenderizador = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -27,6 +28,7 @@ public class VidaPersonagem : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Instantiate(AvisoMenosUmPonto, transform.position, Quaternion.identity);
+            StartCoroutine(Flash());
             vidas -= 1;
             for (int i = 0; i < VidaImagem.Length; i++)
             {
@@ -43,10 +45,13 @@ public class VidaPersonagem : MonoBehaviour
             {
                InterfaceUI.instance.AbrirTelaGameOver();
             }
+        
         }
         if (collision.tag == "Elemento")
         {
             Destroy(collision.gameObject);
+            Instantiate(AvisoMenosUmPonto, transform.position, Quaternion.identity);
+            StartCoroutine(Flash());
             vidas -= 1;
             for (int i2 = 0; i2 < VidaImagem.Length; i2++)
             {
@@ -68,6 +73,8 @@ public class VidaPersonagem : MonoBehaviour
         if (collision.tag == "Objeto")
         {
             Destroy(collision.gameObject);
+            Instantiate(AvisoMenosUmPonto, transform.position, Quaternion.identity);
+            StartCoroutine(Flash());
             vidas -= 1;
             for (int i2 = 0; i2 < VidaImagem.Length; i2++)
             {
@@ -86,5 +93,12 @@ public class VidaPersonagem : MonoBehaviour
                 InterfaceUI.instance.AbrirTelaGameOver();
             }
         }
+    }
+
+    private IEnumerator Flash()
+    {
+        SpriteRenderizador.color = Color.gray;
+        yield return new WaitForSeconds(0.2f);
+        SpriteRenderizador.color = Color.white;
     }
 }

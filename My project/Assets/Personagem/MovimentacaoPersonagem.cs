@@ -28,6 +28,8 @@ public class MovimentacaoPersonagem : MonoBehaviour
 
     private bool isChangingDirection;
 
+    public ParticleSystem Poeira;
+
 
     // Start is called before the first frame update
     void Start()
@@ -91,16 +93,18 @@ public class MovimentacaoPersonagem : MonoBehaviour
 
         if (faceDirectionX > 0)
         {
-
+            CriarPoeira();
+            Poeira.transform.localScale = new Vector2(1, 1);
             transform.localScale = new Vector2(1, 1); // Olhando para a direita com 1
            
 
         }
         else if (faceDirectionX < 0)
         {
-
+            CriarPoeira();
+            Poeira.transform.localScale = new Vector2(-1, 1);
             transform.localScale = new Vector2(-1, 1); // Olhando para a esquerda com -1
-          
+            
 
         }
 
@@ -172,6 +176,11 @@ public class MovimentacaoPersonagem : MonoBehaviour
         }
 
         return val;
+    }
+
+    void CriarPoeira()
+    {
+        Poeira.Play();
     }
 
 }

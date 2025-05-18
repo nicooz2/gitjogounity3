@@ -7,6 +7,7 @@ public class Plataforma : MonoBehaviour
     public Transform PontoA;
     public Transform PontoB;
     public float MoviVelocidade = 10f;
+    
 
     private Vector3 ProximoEspaco;
 
