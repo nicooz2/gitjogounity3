@@ -4008,7 +4008,7 @@ MonoBehaviour:
   isGrounded: 0
   checkJump: 0.5
   tempoJump: 1
-  Poeira: {fileID: 0}
+  Poeira: {fileID: 1644100296}
 --- !u!61 &1452796038
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4164,6 +4164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AvisoMaisUmPonto: {fileID: 1944640920916895511, guid: 4779b3f9c22778b41897ca763d6635cb, type: 3}
+  b2_rigidbody2D: {fileID: 0}
 --- !u!114 &1452796043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4326,6 +4327,11 @@ PrefabInstance:
 --- !u!4 &1644100294 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4244599165026570519, guid: ddd6e197832957e46b8ad84f9af2a234, type: 3}
+  m_PrefabInstance: {fileID: 1644100293}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1644100296 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8413302736044506854, guid: ddd6e197832957e46b8ad84f9af2a234, type: 3}
   m_PrefabInstance: {fileID: 1644100293}
   m_PrefabAsset: {fileID: 0}
 --- !u!224 &1701028503 stripped

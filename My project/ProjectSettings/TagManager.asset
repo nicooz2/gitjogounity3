@@ -13,6 +13,8 @@ TagManager:
   - Elemento
   - Objeto
   - Chefao
+  - "\xC1guaRepresa"
+  - Martelo
   layers:
   - Default
   - TransparentFX

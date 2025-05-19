@@ -3057,6 +3057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AvisoMaisUmPonto: {fileID: 1944640920916895511, guid: 4779b3f9c22778b41897ca763d6635cb, type: 3}
+  b2_rigidbody2D: {fileID: 0}
 --- !u!114 &1452796043
 MonoBehaviour:
   m_ObjectHideFlags: 0

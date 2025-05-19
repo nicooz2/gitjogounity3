@@ -5,6 +5,7 @@ using UnityEngine;
 public class LancarAguaProjetil : MonoBehaviour
 {
     public GameObject AguaProjetilsprite;
+    private bool PodeAgua =  true;
 
 
     // Start is called before the first frame update
@@ -16,9 +17,17 @@ public class LancarAguaProjetil : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) // mouse esquerdo m1
+        if (Input.GetMouseButtonDown(0) && PodeAgua) // mouse esquerdo m1
         {
             Instantiate(AguaProjetilsprite, transform.position, Quaternion.identity);
+            StartCoroutine(IntervaloAgua());
         }
+    }
+
+    IEnumerator IntervaloAgua()
+    {
+        PodeAgua = false;
+        yield return new WaitForSeconds(0.7f);
+        PodeAgua = true;
     }
 }

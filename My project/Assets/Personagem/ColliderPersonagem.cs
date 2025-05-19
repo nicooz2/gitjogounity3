@@ -5,11 +5,12 @@ using UnityEngine;
 public class ColliderPersonagem : MonoBehaviour
 {
     
-    private Rigidbody2D b_Rigidbody2D => GetComponent<Rigidbody2D>();
+   
     public GameObject AvisoMaisUmPonto;
-
+    [SerializeField] private Rigidbody2D b2_rigidbody2D;
 
     
+
     
     // Update is called once per frame
     void Update()  
@@ -24,7 +25,13 @@ public class ColliderPersonagem : MonoBehaviour
             
             Destroy(collision.gameObject);
             Instantiate(AvisoMaisUmPonto, transform.position, Quaternion.identity);
+        
 
+        }
+
+        if (collision.tag == "ÁguaRepresa")
+        {
+            b2_rigidbody2D.AddForce(new Vector3(40000f * Time.deltaTime, 30000f * Time.deltaTime, 0f));
         }
 
     }

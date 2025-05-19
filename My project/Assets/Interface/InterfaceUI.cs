@@ -24,6 +24,8 @@ public class InterfaceUI : MonoBehaviour
     private int ProximoSampleSceneLoad;
 
     
+
+
     private void Awake()
     {
         instance = this;
@@ -53,6 +55,8 @@ public class InterfaceUI : MonoBehaviour
             SceneManager.LoadScene(ProximoSampleSceneLoad);
             Time.timeScale = 1;
         }
+
+        
     }
 
     
@@ -71,7 +75,7 @@ public class InterfaceUI : MonoBehaviour
     {
         
         Time.timeScale = 1;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         
     }
 }

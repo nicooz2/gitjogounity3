@@ -93,6 +93,28 @@ public class VidaPersonagem : MonoBehaviour
                 InterfaceUI.instance.AbrirTelaGameOver();
             }
         }
+        if (collision.tag == "ÁguaRepresa")
+        {
+            Instantiate(AvisoMenosUmPonto, transform.position, Quaternion.identity);
+            StartCoroutine(Flash());
+            vidas -= 1;
+            for (int i2 = 0; i2 < VidaImagem.Length; i2++)
+            {
+                if (i2 < vidas)
+                {
+                    VidaImagem[i2].enabled = true;
+                }
+                else
+                {
+                    VidaImagem[i2].enabled = false;
+                }
+
+            }
+            if (vidas <= 0)
+            {
+                InterfaceUI.instance.AbrirTelaGameOver();
+            }
+        }
     }
 
     private IEnumerator Flash()
