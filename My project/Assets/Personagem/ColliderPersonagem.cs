@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ColliderPersonagem : MonoBehaviour
 {
@@ -32,6 +33,13 @@ public class ColliderPersonagem : MonoBehaviour
         if (collision.tag == "ÁguaRepresa")
         {
             b2_rigidbody2D.AddForce(new Vector3(40000f * Time.deltaTime, 30000f * Time.deltaTime, 0f));
+        }
+
+        if (collision.tag == "MarteloFinal")
+        {
+            Destroy(collision.gameObject);
+            Instantiate(AvisoMaisUmPonto, transform.position, Quaternion.identity);
+            SceneManager.LoadScene(7);
         }
 
     }

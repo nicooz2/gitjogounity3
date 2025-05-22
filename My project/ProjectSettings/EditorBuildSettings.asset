@@ -21,9 +21,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Fase2.unity
     guid: 541fc8582801cdb4ab3146b074db8370
   - enabled: 1
+    path: "Assets/Scenes/Hist\xF3ria4.unity"
+    guid: 650039f8cefbe444da0b6f43d3bc4a2c
+  - enabled: 1
+    path: Assets/Scenes/Fase3.unity
+    guid: 49e0ec5797e2df24ba23848ff2a15bff
+  - enabled: 1
     path: "Assets/Scenes/Hist\xF3ria3.unity"
     guid: ea90ed70a1644864a9aeec245f1e3aa7
   - enabled: 1
     path: Assets/Scenes/Fase4.unity
     guid: 26eb886c6cdd9484483e0406f76059b2
+  - enabled: 1
+    path: "Assets/Scenes/Hist\xF3ria5.unity"
+    guid: 562ca03835c101a45bcb50ad304aada9
+  - enabled: 1
+    path: Assets/Scenes/Fase5.unity
+    guid: b3314bc045b51ff4dabc111506f5ec79
   m_configObjects: {}

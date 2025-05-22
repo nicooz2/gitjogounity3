@@ -40,4 +40,5 @@ public class VidaChao : MonoBehaviour
             InterfaceUI.instance.AbrirTelaGameOver(); // abrindo a tela de game over
         }
     }
+
 }
