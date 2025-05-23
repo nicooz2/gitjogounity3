@@ -30,6 +30,7 @@ public class MovimentacaoPersonagem : MonoBehaviour
 
     public ParticleSystem Poeira;
 
+    AudioManager audioManager3;
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +38,9 @@ public class MovimentacaoPersonagem : MonoBehaviour
         b_GroundCheck1 = transform.Find("Ground Check 1");
         b_GroundCheck2 = transform.Find("Ground Check 2");
         b_Rigidbody2D = GetComponent<Rigidbody2D>();
+
+        audioManager3 = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        audioManager3.AtivarEfeitoSonoro(audioManager3.InicioFaseSom);
     }
 
 

@@ -98,7 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da11a979fe5cb1f4d84f331b0e014c5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VelocidadeAgua: 11
+  VelocidadeAgua: 9
+  AvisoMaisUmPonto2: {fileID: 1944640920916895511, guid: 4779b3f9c22778b41897ca763d6635cb, type: 3}
 --- !u!61 &8371611933332607328
 BoxCollider2D:
   m_ObjectHideFlags: 0

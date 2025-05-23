@@ -683,16 +683,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ItemInfo:
-  - "Em um futuro n\xE3o muito distante, a cidade de Nubl\xF3polis sofre com o excesso
-    de polui\xE7\xE3o e o controle de um magnata poderoso que lucra com o caos.\n\r\nPara
-    manter seu dom\xEDnio, ele criou uma frota de rob\xF4s que patrulham as ruas
-    e vigiam a popula\xE7\xE3o.\n\r\nMas um de seus pr\xF3prios projetos saiu do
-    controle.\n\r\nUm dos rob\xF4s foi reprogramado por um grupo rebelde para se
-    voltar contra o seu dono, para evitar o caos poluitivo. Ele foi apelidado de
-    CL34NER.\r\n\nAgora, ele \xE9 a \xFAltima esperan\xE7a da popula\xE7\xE3o.\n\nCL34NER
-    ativado. Come\xE7ando miss\xE3o de recupera\xE7\xE3o. A cidade ainda pode ser
-    consertada. A parte mais urbana est\xE1 prestes a colapsar... preciso agir l\xE1
-    primeiro.\r\n"
+  - 'Os ataques '
   TextoVelocidade: 0.05
   ItemInfoTexto: {fileID: 904060708}
 --- !u!114 &1630653931

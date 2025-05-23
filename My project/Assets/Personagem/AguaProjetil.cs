@@ -5,7 +5,16 @@ using UnityEngine;
 public class AguaProjetil : MonoBehaviour
 {
     public float VelocidadeAgua;
+    public GameObject AvisoMaisUmPonto2;
 
+    AudioManager audioManager4;
+
+
+    private void Awake()
+    {
+
+        audioManager4 = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +33,8 @@ public class AguaProjetil : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Destroy(gameObject);
+            Instantiate(AvisoMaisUmPonto2, transform.position, Quaternion.identity);
+            audioManager4.AtivarEfeitoSonoro(audioManager4.ColetarItem1Som);
         }
 
         if (collision.gameObject.tag == "ParedeLimite")

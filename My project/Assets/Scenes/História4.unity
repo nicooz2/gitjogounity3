@@ -683,16 +683,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ItemInfo:
-  - "Em um futuro n\xE3o muito distante, a cidade de Nubl\xF3polis sofre com o excesso
-    de polui\xE7\xE3o e o controle de um magnata poderoso que lucra com o caos.\n\r\nPara
-    manter seu dom\xEDnio, ele criou uma frota de rob\xF4s que patrulham as ruas
-    e vigiam a popula\xE7\xE3o.\n\r\nMas um de seus pr\xF3prios projetos saiu do
-    controle.\n\r\nUm dos rob\xF4s foi reprogramado por um grupo rebelde para se
-    voltar contra o seu dono, para evitar o caos poluitivo. Ele foi apelidado de
-    CL34NER.\r\n\nAgora, ele \xE9 a \xFAltima esperan\xE7a da popula\xE7\xE3o.\n\nCL34NER
-    ativado. Come\xE7ando miss\xE3o de recupera\xE7\xE3o. A cidade ainda pode ser
-    consertada. A parte mais urbana est\xE1 prestes a colapsar... preciso agir l\xE1
-    primeiro.\r\n"
+  - "A floresta foi salva, as instala\xE7\xF5es do boss ter\xE3o que ser em outro
+    lugar.\n\nCL34NER para, fica pensativo e reflete: se cada um fizer sua parte,
+    o mundo, o meio ambiente e a natureza poder\xE3o viver em paz e harmonia com
+    todos.\n\nCL34NER v\xEA a luz no fim do t\xFAnel chegando cada vez mais perto,
+    temos que trabalhar juntos. \n\nO rob\xF4 escuta um barulho vindo de seu radar
+    mapeador, o local \xE9 a represa de Nubl\xF3polis. CL34NER vai at\xE9 ela e logo
+    se depara com muitos destro\xE7os de pedras e canos no ch\xE3o. \n\nUm vazamento
+    de \xE1gua est\xE1 colapsando a represa, \xE9 necess\xE1ria uma a\xE7\xE3o, vamos
+    consertar essa represa juntos!\n\n\"Se destru\xEDrem essa represa, a pouca \xE1gua
+    pot\xE1vel que temos ser\xE1 prejudicada. N\xF3s devemos salv\xE1-la!\"\n "
   TextoVelocidade: 0.05
   ItemInfoTexto: {fileID: 904060708}
 --- !u!114 &1630653931

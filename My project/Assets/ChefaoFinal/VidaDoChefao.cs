@@ -11,6 +11,7 @@ public class VidaDoChefao : MonoBehaviour
 
     private SpriteRenderer SpriteRenderizadorDano;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +32,7 @@ public class VidaDoChefao : MonoBehaviour
     {
         if (collision.tag == "Personagem")
         {
+
             VidaChefao -= 10;
             StartCoroutine(ChefaoFlash());
         }

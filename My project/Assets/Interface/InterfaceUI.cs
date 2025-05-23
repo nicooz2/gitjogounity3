@@ -23,12 +23,14 @@ public class InterfaceUI : MonoBehaviour
 
     private int ProximoSampleSceneLoad;
 
-    
+    AudioManager audioManager5;
+
 
 
     private void Awake()
     {
         instance = this;
+        audioManager5 = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
     
     
@@ -59,16 +61,17 @@ public class InterfaceUI : MonoBehaviour
         
     }
 
-    
-    
-    
+
+
+
     public void AbrirTelaGameOver()
     {
 
         Time.timeScale = 0;
         JogoGameOver.SetActive(true);
         BotaoTenteDeNovo.SetActive(true);
-        
+        audioManager5.AtivarEfeitoSonoro(audioManager5.GameOverSom);
+
     }
 
     public void JogoRestart()

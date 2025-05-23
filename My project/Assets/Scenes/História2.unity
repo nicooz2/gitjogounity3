@@ -683,11 +683,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ItemInfo:
-  - "\"Eles v\xE3o queimar a floresta para abrir espa\xE7o para mais f\xE1bricas.
-    N\xE3o podemos deixar.\"\n\nAos poucos, vamos combatendo o fogo com os disparos
-    de \xE1gua, a floresta deve ser protegida por n\xF3s.\n\nO CL34NER se apronta
-    para o desafio, aperta os parafusos, checa o \xF3leo, conecta os fios e vai para
-    a floresta com sua for\xE7a e coragem.   \n"
+  - "Eles v\xE3o queimar a floresta para abrir espa\xE7o para mais f\xE1bricas. N\xE3o
+    podemos deixar.\n\nAos poucos, vamos combatendo o fogo com os disparos de \xE1gua,
+    a floresta deve ser protegida por n\xF3s.\n\nO CL34NER se apronta para o desafio,
+    aperta os parafusos, checa o \xF3leo, conecta os fios, ativa seus propulsores
+    e vai para a floresta com sua for\xE7a e coragem. \n\n\nCL34NER ativado. Propulsor
+    ativado.\n"
   TextoVelocidade: 0.05
   ItemInfoTexto: {fileID: 904060708}
 --- !u!114 &1630653931

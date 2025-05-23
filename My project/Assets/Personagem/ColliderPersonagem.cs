@@ -10,9 +10,15 @@ public class ColliderPersonagem : MonoBehaviour
     public GameObject AvisoMaisUmPonto;
     [SerializeField] private Rigidbody2D b2_rigidbody2D;
 
-    
+    AudioManager audioManager;
 
-    
+
+    private void Awake()
+    {
+
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     // Update is called once per frame
     void Update()  
     {
@@ -26,7 +32,7 @@ public class ColliderPersonagem : MonoBehaviour
             
             Destroy(collision.gameObject);
             Instantiate(AvisoMaisUmPonto, transform.position, Quaternion.identity);
-        
+            audioManager.AtivarEfeitoSonoro(audioManager.ColetarItem1Som);
 
         }
 
