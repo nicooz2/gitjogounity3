@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FabricaDeCircle : MonoBehaviour
 {
-    float Espera = 0.3f;
+    float Espera = 0.2f;
     public GameObject Objeto;
 
 

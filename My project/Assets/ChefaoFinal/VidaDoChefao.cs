@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class VidaDoChefao : MonoBehaviour
 {
+    public GameObject AvisoMenosUmPontoChefao;
+
     public float VidaMaxima = 100;
     public float VidaChefao = 100;
 
@@ -24,7 +26,7 @@ public class VidaDoChefao : MonoBehaviour
     {
         if (VidaChefao <= 0)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(11);
         }
     }
 
@@ -32,7 +34,7 @@ public class VidaDoChefao : MonoBehaviour
     {
         if (collision.tag == "Personagem")
         {
-
+            Instantiate(AvisoMenosUmPontoChefao, transform.position, Quaternion.identity);
             VidaChefao -= 10;
             StartCoroutine(ChefaoFlash());
         }

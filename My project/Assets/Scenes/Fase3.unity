@@ -911,6 +911,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5100219833743834269, guid: 7a93f10b5cdc7344b92929ae37cf8900, type: 3}
+      propertyPath: PuloSom
+      value: 
+      objectReference: {fileID: 8300000, guid: e8d692b7a8ec31f42bd2aba39175b292, type: 3}
     - target: {fileID: 6344426023799102045, guid: 7a93f10b5cdc7344b92929ae37cf8900, type: 3}
       propertyPath: m_Name
       value: AudioGerenciador

@@ -38,4 +38,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fase5.unity
     guid: b3314bc045b51ff4dabc111506f5ec79
+  - enabled: 1
+    path: "Assets/Scenes/Hist\xF3riaFinal.unity"
+    guid: 8b83c31390778714e980b062de458d1b
+  - enabled: 1
+    path: Assets/Scenes/FaseFinal.unity
+    guid: 84135a4117a3ca846a41f14adee96b4c
   m_configObjects: {}

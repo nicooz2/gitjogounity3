@@ -127,7 +127,7 @@ public class MovimentacaoPersonagem : MonoBehaviour
 
         if(isGrounded == true && Input.GetKeyDown(KeyCode.Space))
         {
-
+            audioManager3.AtivarEfeitoSonoro(audioManager3.PuloSom);
             isJumping = true;
             tempoContaJump = tempoJump;
             b_Rigidbody2D.velocity = Vector2.up * jumpSpeedY;
@@ -137,6 +137,7 @@ public class MovimentacaoPersonagem : MonoBehaviour
 
             if (tempoContaJump > 0)
             {
+                
                 b_Rigidbody2D.velocity = Vector2.up * jumpSpeedY;
                 tempoContaJump -= Time.deltaTime;
 

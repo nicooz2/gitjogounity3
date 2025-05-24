@@ -10,10 +10,13 @@ public class VidaPersonagem : MonoBehaviour
     public GameObject AvisoMenosUmPonto;
     private SpriteRenderer SpriteRenderizador;
 
+    AudioManager audioManager8;
+
     // Start is called before the first frame update
     void Start()
     {
         SpriteRenderizador = GetComponent<SpriteRenderer>();
+        audioManager8 = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     // Update is called once per frame
@@ -29,6 +32,7 @@ public class VidaPersonagem : MonoBehaviour
             Destroy(collision.gameObject);
             Instantiate(AvisoMenosUmPonto, transform.position, Quaternion.identity);
             StartCoroutine(Flash());
+            audioManager8.AtivarEfeitoSonoro(audioManager8.ColliderPersonagemSom);
             vidas -= 1;
             for (int i = 0; i < VidaImagem.Length; i++)
             {
@@ -52,6 +56,7 @@ public class VidaPersonagem : MonoBehaviour
             Destroy(collision.gameObject);
             Instantiate(AvisoMenosUmPonto, transform.position, Quaternion.identity);
             StartCoroutine(Flash());
+            audioManager8.AtivarEfeitoSonoro(audioManager8.ColliderPersonagemFase2Som);
             vidas -= 1;
             for (int i2 = 0; i2 < VidaImagem.Length; i2++)
             {
@@ -75,6 +80,7 @@ public class VidaPersonagem : MonoBehaviour
             Destroy(collision.gameObject);
             Instantiate(AvisoMenosUmPonto, transform.position, Quaternion.identity);
             StartCoroutine(Flash());
+            audioManager8.AtivarEfeitoSonoro(audioManager8.ColliderPersonagemFase4Som);
             vidas -= 1;
             for (int i2 = 0; i2 < VidaImagem.Length; i2++)
             {

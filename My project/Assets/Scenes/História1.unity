@@ -212,7 +212,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -684,12 +684,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemInfo:
   - "Em um futuro n\xE3o muito distante, a cidade de Nubl\xF3polis sofre com o excesso
-    de polui\xE7\xE3o e o controle de um magnata poderoso que lucra com o caos, \n\r\nPara
-    manter seu dom\xEDnio, ele criou uma frota de rob\xF4s que patrulham as ruas
-    e vigiam a popula\xE7\xE3o.\n\r\nMas um de seus pr\xF3prios projetos saiu do
-    controle.\n\r\nUm dos rob\xF4s foi reprogramado por um grupo rebelde para se
-    voltar contra o seu dono, para evitar o caos poluitivo. Ele foi apelidado de
-    CL34NER.\r\n\nAgora, ele \xE9 a \xFAltima esperan\xE7a da popula\xE7\xE3o.\n\nCL34NER
+    de polui\xE7\xE3o e o controle de um magnata poderoso que lucra com o caos, o
+    Magnata Ben. \n\r\nPara manter seu dom\xEDnio, ele criou uma frota de rob\xF4s
+    que patrulham as ruas e vigiam a popula\xE7\xE3o.\n\r\nMas um de seus pr\xF3prios
+    projetos saiu do controle.\n\r\nUm dos rob\xF4s foi reprogramado por um grupo
+    rebelde para se voltar contra o seu dono, para evitar o caos poluitivo. Ele foi
+    apelidado de CL34NER.\r\n\nAgora, ele \xE9 a \xFAltima esperan\xE7a da popula\xE7\xE3o.\n\nCL34NER
     ativado. Come\xE7ando miss\xE3o de recupera\xE7\xE3o. A cidade ainda pode ser
     consertada. A parte mais urbana est\xE1 prestes a colapsar... preciso agir l\xE1
     primeiro.\r\n"
@@ -1062,8 +1062,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -856, y: -514}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -872, y: -514}
+  m_SizeDelta: {x: 130, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040702992
 MonoBehaviour:
@@ -1134,7 +1134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7176471}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

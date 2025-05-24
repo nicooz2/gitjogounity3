@@ -212,7 +212,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -683,16 +683,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ItemInfo:
-  - "Conseguimos, Essa foi por pouco, ufa. CL34NER conserta todos os vazamentos de
+  - "Conseguimos, essa foi por pouco, ufa. CL34NER conserta todos os vazamentos de
     \xE1gua da represa e salva a \xE1gua pot\xE1vel de Nubl\xF3polis. \n\nUm grupo
     de pessoas vem at\xE9 ele e lhe diz: \"Muito obrigado CL34NER, voc\xEA \xE9 o
-    nosso orgulho, mas porque voc\xEA protege tanto a natureza?\" \n\nO rob\xF4 responde:
-    \" Essa \xE9 a minha miss\xE3o, se n\xF3s par\xE1ssemos um pouco, para viver
-    em paz com a natureza, ver\xEDamos que podemos caminhar junto com ela aonde estivermos\"\n\n
-    \"Esse maldito me atrapalhou nas \xFAltimas duas vezes. Mais uma vez e todos
-    voc\xEAs sofrer\xE3o consequ\xEAncias!! R\xC1PIDO! Quero cada pe\xE7a dele na
-    minha mesa!\"\n\nCL34NER capta ondas de movimento e som vindo na sua dire\xE7\xE3o,
-    ele precisa ativar seu modo de desvio r\xE1pido diante do ataque surpresa."
+    nosso orgulho, mas porque voc\xEA protege tanto a natureza assim?\" \n\nO rob\xF4
+    responde: \" Essa \xE9 a minha miss\xE3o, se n\xF3s par\xE1ssemos um pouco, para
+    viver em paz com a natureza, ver\xEDamos que somos capazes de caminhar junto
+    com ela aonde estivermos\"\n\nFala do Magnata Ben: \"Esse maldito me atrapalhou
+    nas \xFAltimas duas vezes. Mais uma vez e todos voc\xEAs sofrer\xE3o consequ\xEAncias!!
+    R\xC1PIDO! Quero cada pe\xE7a dele na minha mesa!\"\n\nCL34NER capta ondas de
+    movimento e som vindo na sua dire\xE7\xE3o, ele precisa ativar seu modo de desvio
+    r\xE1pido diante do ataque surpresa."
   TextoVelocidade: 0.05
   ItemInfoTexto: {fileID: 904060708}
 --- !u!114 &1630653931
@@ -1062,8 +1063,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -856, y: -514}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -872, y: -514}
+  m_SizeDelta: {x: 130, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040702992
 MonoBehaviour:
@@ -1134,7 +1135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7176471}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

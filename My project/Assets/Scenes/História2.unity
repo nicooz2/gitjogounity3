@@ -212,7 +212,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -687,8 +687,9 @@ MonoBehaviour:
     podemos deixar.\n\nAos poucos, vamos combatendo o fogo com os disparos de \xE1gua,
     a floresta deve ser protegida por n\xF3s.\n\nO CL34NER se apronta para o desafio,
     aperta os parafusos, checa o \xF3leo, conecta os fios, ativa seus propulsores
-    e vai para a floresta com sua for\xE7a e coragem. \n\n\nCL34NER ativado. Propulsor
-    ativado.\n"
+    e vai para a floresta com sua for\xE7a e coragem. \n\nVamos nessa combater os
+    focos de inc\xEAndio que est\xE3o na floresta.\n\nCL34NER ativado. Propulsor
+    com dash ativado.\n"
   TextoVelocidade: 0.05
   ItemInfoTexto: {fileID: 904060708}
 --- !u!114 &1630653931
@@ -1058,8 +1059,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -856, y: -514}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -872, y: -514}
+  m_SizeDelta: {x: 130, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040702992
 MonoBehaviour:
@@ -1130,7 +1131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7176471}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

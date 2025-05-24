@@ -212,7 +212,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -683,7 +683,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ItemInfo:
-  - 'Os ataques '
+  - "Os ataques est\xE3o aumentando, Ben est\xE1 se irritando, o tempo passa. Cl34ner
+    segue resistindo e protegendo o meio ambiente.\n\nA paci\xEAncia de Ben se esgota
+    e ele mesmo decide lidar com o rob\xF4 que atrapalha seus planos toda a hora
+    - \" J\xC1 CHEGA, essa sucata de meia tigela ver\xE1 o que \xE9 bom para tosse!\"\n\nO
+    dia amanhece, Cl34ner acorda, sai de sua casa, fecha a porta e em uma fra\xE7\xE3o
+    de segundos, l\xE1 est\xE1 ele, o Magnata Ben esperando para o embate, os dois
+    se encontram e Ben diz: \n\n\"Ol\xE1 modelo Cl34, parece que voc\xEA, nesses
+    \xFAltimos tempos, andou perdendo alguns parafusos, irei consertar tudo isso\"\n\nO
+    rob\xF4 responde: \" Me chamo Cl34ner, portanto limpar a sujeira que voc\xEA
+    est\xE1 causando n\xE3o \xE9 uma novidade, voc\xEA n\xE3o vai mais poluir a cidade
+    e a natureza\""
   TextoVelocidade: 0.05
   ItemInfoTexto: {fileID: 904060708}
 --- !u!114 &1630653931
@@ -1053,8 +1063,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -856, y: -514}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -872, y: -514}
+  m_SizeDelta: {x: 130, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040702992
 MonoBehaviour:
@@ -1125,7 +1135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7176471}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
